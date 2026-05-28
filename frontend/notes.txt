@@ -1,0 +1,5 @@
+Project: Expense Tracker Frontend
+Framework: React.js
+Styling: Tailwind CSS
+Charts: Chart.js
+Note: Please initialize your React project inside this 'frontend' folder only.
