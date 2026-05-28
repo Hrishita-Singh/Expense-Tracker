@@ -1,16 +1,18 @@
-# VS Code settings and temporary files
+# React dependencies (Yeh folder GitHub par kabhi nahi jana chahiye)
+frontend/node_modules/
+frontend/build/
+
+# Django / Python temporary files
+**/__pycache__/
+*.py[cod]
+backend/venv/
+backend/env/
+
+# Database & Environment Secrets (PostgreSQL credentials)
+backend/.env
+frontend/.env.local
+
+# System files
 .vscode/
-.history/
-*.code-workspace
-
-#  temporary files of Operating System
-Thumbs.db
 .DS_Store
-
-# Log files which trace the error
 *.log
-npm-debug.log*
-
-# in future if we use Node.js then the private folder may be ignored
-node_modules/
-.env
