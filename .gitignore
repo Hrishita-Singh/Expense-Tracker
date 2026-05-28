@@ -1,0 +1,16 @@
+# VS Code settings and temporary files
+.vscode/
+.history/
+*.code-workspace
+
+#  temporary files of Operating System
+Thumbs.db
+.DS_Store
+
+# Log files which trace the error
+*.log
+npm-debug.log*
+
+# in future if we use Node.js then the private folder may be ignored
+node_modules/
+.env
